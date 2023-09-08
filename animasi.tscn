@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlr7lrbsxg6i2"]
+
+[ext_resource type="PackedScene" uid="uid://c471x7he2w37v" path="res://player.tscn" id="1_8yp57"]
+[ext_resource type="PackedScene" uid="uid://c8cg1itxht8ry" path="res://jalan.tscn" id="2_na8pl"]
+
+[node name="animasi" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_8yp57")]
+position = Vector2(-54, 126)
+
+[node name="jalan" parent="." instance=ExtResource("2_na8pl")]
